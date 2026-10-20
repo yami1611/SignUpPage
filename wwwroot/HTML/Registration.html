@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>SignUpPagele</title>
+</head>
+<body>
+    <table border="1" style="width:100%" cellpadding="15">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="width: 20%"></td>
+            <td align="center" colspan="4">
+                <h1>HTMl SignUp Form</h1>
+            </td>
+            <td></td>
+        </tr>
+    </table>
+
+    <br />
+    <table border="1" style="width:100%">
+        <tr>
+            <td style="width: 20%"></td>
+            <td>
+                <form>
+                    <table align="center"
+                           border="1"
+                           cellpadding="10"
+                           dir="rtl">
+                        <tr>
+                            <td>שם פרטי:</td>
+                            <td>
+                                <input type="text"
+                                       id="fName"
+                                       name="fName" maxlength="50"
+                                       placeholder="שם פרטי" />
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>שם משפחה:</td>
+                            <td>
+                                <input type="text"
+                                       id="lName"
+                                       name="lName" maxlength="50"
+                                       placeholder="שם משפחה" />
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td>
+                                <input type="email"
+                                       id="uEmail"
+                                       name="uEmail" maxlength="50"
+                                       placeholder="Email" />
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>סיסמה:</td>
+                            <td>
+                                <input type="password"
+                                       id="uPassword"
+                                       name="uPassword" maxlength="50"
+                                       placeholder="סיסמה" />
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>נייד:</td>
+                            <td>
+                                <input type="text"
+                                       id="uMobile"
+                                       name="uMobile"
+                                       maxlength="7" />
+                                <select id="pref" name="pref">
+                                    <option value="050">050</option>
+                                    <option value="051">051</option>
+                                    <option value="052">052</option>
+                                    <option value="053">053</option>
+                                    <option value="054">054</option>
+                                    <option value="055">055</option>
+                                </select>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>תאריך לידה:</td>
+                            <td>
+                                <select id="year" name="year">
+                                    <option value="2024">2024</option>
+                                    <option value="2023">2023</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2021">2021</option>
+                                    <option value="2020">2020</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2015">2015</option>
+                                </select>
+                                <select id="month" name="month">
+                                    <option value="1">ינואר</option>
+                                    <option value="2">פברואר</option>
+                                    <option value="3">מרץ</option>
+                                    <option value="4">אפריל</option>
+                                    <option value="5">מאי</option>
+                                    <option value="6">יוני</option>
+                                    <option value="7">יולי</option>
+                                    <option value="8">אוגוסט</option>
+                                    <option value="9">ספטמבר</option>
+                                    <option value="10">אוקטובר</option>
+                                    <option value="11">נובמבר</option>
+                                    <option value="12">דצמבר</option>
+                                </select>
+                                <select id="day" name="day">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
+                                </select>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>מגדר:</td>
+                            <td>
+                                <input type="radio" id="male" name="gender" value="male">
+                                <label for="male">זכר</label>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">נקבה</label>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="submit" value="שלח" />
+                                Reset
+                                <input type="reset" value="נקה" />
+                            </td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+            <td style="width: 20%"></td>
+        </tr>
+    </table>
+</body>
+</html>
